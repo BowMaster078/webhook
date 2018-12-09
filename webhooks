@@ -1,0 +1,6 @@
+echo "# webhook" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/BowMaster078/webhook.git
+git push -u origin master
